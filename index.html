@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <script src="js/scripts.js"></script>
+    <title>Grocery list</title>
+</head>
+
+<body>
+    <form>
+        <input id="apple" type="checkbox" value="apple" name="apple">
+        <label for="apple">Apples</label><br />
+        <input id="banana" type="checkbox" value="banana" name="banana">
+        <label for="banana">Bananas</label><br />
+        <input id="soda" type="checkbox" value="soda" name="soda">
+        <label for="soda">Soda</label><br />
+        <input id="cheese" type="checkbox" value="cheese" name="cheese">
+        <label for="cheese">Cheese</label><br />
+        <input id="chips" type="checkbox" value="chips" name="chips">
+        <label for="chips">Chips</label><br />
+        <button type="submit">Place order</button>
+    </form>
+
+    <div id="result" class="hidden">
+        <h3>These items will be shipped to your address:</h3>
+        <ul></ul>
+        <br />
+        <button id="resetBtn">Go back to list</button>
+    </div>
+</body>
+
+</html>
